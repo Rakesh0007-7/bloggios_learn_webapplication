@@ -1,10 +1,10 @@
-import React from 'react';
+import ParentBase from "../BaseContainer/ParentBase/ParentBase.jsx";
 
 const LandingPage = () => {
     return (
-        <div>
-            Landing Page
-        </div>
+        <ParentBase>
+
+        </ParentBase>
     );
 };
 
