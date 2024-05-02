@@ -1,5 +1,5 @@
 import './BasicLoader.scss';
-import {colors} from "../../utils/Theme.jsx";
+import {colors} from "../../styles/Theme.jsx";
 import PropTypes from "prop-types";
 
 const BasicLoader = ({

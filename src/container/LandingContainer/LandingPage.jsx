@@ -1,10 +1,10 @@
-import ParentBase from "../BaseContainer/ParentBase/ParentBase.jsx";
+import UnauthenticatedNavbar from "../../Components/Navbars/UanauthenticatedNavbar/UnauthenticatedNavbar.jsx";
 
 const LandingPage = () => {
     return (
-        <ParentBase>
-
-        </ParentBase>
+        <div>
+            <UnauthenticatedNavbar />
+        </div>
     );
 };
 

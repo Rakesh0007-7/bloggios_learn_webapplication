@@ -1,0 +1,45 @@
+@import "../../../styles/Theme";
+
+nav.navbar__mainContainer__nav {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 40px;
+
+  .navbar__rightInfo__div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    button {
+      outline: none;
+      border: none;
+      background: transparent;
+      padding: 10px;
+      letter-spacing: 1px;
+      border-radius: 10px;
+      font-weight: 500;
+      cursor: pointer;
+    }
+
+    button:first-child {
+      color: $accent-color;
+
+      &:hover {
+        color: $accent-color-1200;
+        text-decoration: underline;
+      }
+    }
+
+    button:last-child {
+      background: $accent-color;
+      color: $primary-color;
+
+      &:hover {
+        background: $accent-color-1200;
+      }
+    }
+  }
+}
