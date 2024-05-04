@@ -42,7 +42,7 @@ const ImageWrapper = ({
 };
 
 ImageWrapper.propTypes = {
-    image: PropTypes.oneOfType([PropTypes.string, PropTypes.object]).isRequired,
+    image: PropTypes.oneOfType([PropTypes.string, PropTypes.object]),
     alt: PropTypes.string,
     size: PropTypes.oneOfType([PropTypes.number, PropTypes.string]).isRequired,
     borderRadius: PropTypes.string,
