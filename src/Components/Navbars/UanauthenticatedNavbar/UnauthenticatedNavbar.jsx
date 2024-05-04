@@ -1,15 +1,32 @@
-import styles from './UnauthenticatedNavbar.module.scss';
+import './UnauthenticatedNavbar.scss';
 import ImageWrapper from "../../ImageWrapper/ImageWrapper.jsx";
+import {FaSearch} from "react-icons/fa";
+import {useNavigate} from "react-router-dom";
+import {LOGIN_PAGE} from "../../../utils/PathConstants.jsx";
 
 const UnauthenticatedNavbar = () => {
-    return (
-        <nav className={styles.navbar__mainContainer__nav}>
-            <ImageWrapper
-                size={55}
-            />
 
-            <div className={styles.navbar__rightInfo__div}>
-                <button>Login</button>
+    const navigate = useNavigate();
+
+    return (
+        <nav className={'navbar__mainContainer__nav'}>
+            <div className={'navbar__leftInfo__div'}>
+                <ImageWrapper
+                    size={44}
+                />
+
+                <div className={'navbar__searchBar__div'}>
+                    <FaSearch />
+                    <input
+                        readOnly={true}
+                        type="text"
+                        placeholder={'Search Bloggios'}
+                    />
+                </div>
+            </div>
+
+            <div className={'navbar__rightInfo__div'}>
+                <button onClick={()=> navigate(LOGIN_PAGE)}>Login</button>
                 <button>Join for Free</button>
             </div>
         </nav>

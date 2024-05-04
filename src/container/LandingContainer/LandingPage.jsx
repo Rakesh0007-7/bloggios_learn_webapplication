@@ -1,10 +1,10 @@
-import UnauthenticatedNavbar from "../../Components/Navbars/UanauthenticatedNavbar/UnauthenticatedNavbar.jsx";
+import UnauthenticatedBase from "../BaseContainer/UnauthenticatedBase/UnauthenticatedBase.jsx";
 
 const LandingPage = () => {
     return (
-        <div>
-            <UnauthenticatedNavbar />
-        </div>
+        <UnauthenticatedBase>
+
+        </UnauthenticatedBase>
     );
 };
 
