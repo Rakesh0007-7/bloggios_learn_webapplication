@@ -2,7 +2,7 @@ import './UnauthenticatedNavbar.scss';
 import ImageWrapper from "../../ImageWrapper/ImageWrapper.jsx";
 import {FaSearch} from "react-icons/fa";
 import {useNavigate} from "react-router-dom";
-import {LOGIN_PAGE} from "../../../utils/PathConstants.jsx";
+import {LOGIN_PAGE, SIGNUP_PAGE} from "../../../utils/PathConstants.jsx";
 
 const UnauthenticatedNavbar = () => {
 
@@ -27,7 +27,7 @@ const UnauthenticatedNavbar = () => {
 
             <div className={'navbar__rightInfo__div'}>
                 <button onClick={()=> navigate(LOGIN_PAGE)}>Login</button>
-                <button>Join for Free</button>
+                <button onClick={()=> navigate(SIGNUP_PAGE)}>Join for Free</button>
             </div>
         </nav>
     );
