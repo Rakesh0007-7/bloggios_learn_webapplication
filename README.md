@@ -7,9 +7,9 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-- ## 🏗️ How to Set up `ReactPlay` for Development?
+- ## 🏗️ How to Set up `Bloggios_Learn` for Development?
 
-You may want to set up the `bloggios_learn` repo for the following reasons:
+You may want to set up the `bloggios_learn` repo for the following reasons:  
 
 Here is a quick overview of the `bloggios_learn` repo setup:
 
